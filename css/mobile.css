@@ -1,0 +1,76 @@
+@media screen and (max-width: 500px) {
+  /* Section: Text */
+  .container {
+    grid-template-columns: auto;
+    color: hsl(229, 6%, 66%);
+    text-align: center;
+    margin: 0 0.75rem;
+    padding-bottom: 2rem;
+  }
+
+  .container h1 {
+    font-weight: 200;
+  }
+
+  .container h1 span {
+    font-weight: 600;
+    color: black;
+    font-size: inherit;
+  }
+
+  .container p {
+    font-weight: 400;
+    font-size: 15px;
+    width: 100%;
+  }
+  /* Section: Grid */
+  .grid {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card {
+    position: relative;
+    margin: 1rem;
+    height: 220px;
+    width: 300px;
+    border-radius: 0.5rem;
+    padding: 1.2rem;
+  }
+  .grid .supervisor {
+    box-shadow: 0 -4px 0 0 hsl(180, 62%, 55%), 0px 0px 20px hsl(229, 6%, 66%);
+  }
+
+  .grid .teambuilder {
+    box-shadow: 0 -4px 0 0 hsl(0, 78%, 62%), 0px 0px 20px hsl(229, 6%, 66%);
+  }
+
+  .grid .karma {
+    box-shadow: 0 -4px 0 0 hsl(34, 97%, 64%), 0px 0px 20px hsl(229, 6%, 66%);
+  }
+
+  .grid .calculator {
+    box-shadow: 0 -4px 0 0 hsl(212, 86%, 64%), 0px 0px 20px hsl(229, 6%, 66%);
+  }
+
+  .grid .card h1 {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+
+  .grid .card p {
+    font-size: 1rem;
+    color: hsl(229, 6%, 66%);
+    text-align: left;
+    margin: 0.5rem 0;
+    padding-right: 3rem;
+  }
+
+  .grid .card > img {
+    position: absolute;
+    bottom: 1.2rem;
+    right: 1.2rem;
+  }
+}
